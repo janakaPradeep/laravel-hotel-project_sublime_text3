@@ -1,0 +1,84 @@
+/* CSS Document */
+body{padding:0px; margin:0px;  font:10px/12px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+p a{font:10px/12px Tahoma, sans-serif; color:#315ab4; text-decoration:none;}
+p a:hover{ color:#000; text-decoration:underline;}
+
+.headline{font:12px/12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#315ab4;}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:306px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:0; left:0px}
+#header img#slogan{position:absolute; top:143px; left:435px}
+
+#header ul.menu{position:absolute; top:71px; left:31px; width:740px}
+#header ul.menu li{height:30px; margin-right:10px; float:left}
+#header ul.menu li a{height:30px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:30px;}
+
+#header ul.menu li.btn_1 a{width:76px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:76px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:100px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:100px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:65px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:65px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:100px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:100px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+
+#header ul.menu li.line{width:22px; background:url(../images/spacer_m.gif) 0 0 no-repeat}
+
+/* CONTENT */
+
+#content{width:714px; position:relative; clear:both; padding-top:14px; margin-left:31px}
+
+#leftPan{width:419px; float:left; margin:0 28px 0 0; display:inline; background:#f7f7f5;margin-left:34px;}
+
+#leftPan1{width:219px; float:right; margin:0 28px 0 0;  background:#f7f7f5;margin-left:234px;}
+#rightPan{width:219px; float:relative;margin:0 28px 10 0; display:inline;}
+#rightPan1{width:219px; float:left;margin:0 28px 10 0; display:inline;}
+
+#content ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/arrow1.gif) 0 5px no-repeat; padding-left:11px; height:18px;}
+#content ul li a{color:#000; text-decoration:underline;}
+#content ul li a:hover{color:#000; text-decoration:none;}
+
+#room{width:179px; margin:15px 0 20px 20px}
+#room h2{height:40px; position:relative; margin-bottom:16px}
+#room img{margin-bottom:17px}
+#room p{margin-left:3px; margin-bottom:15px;width:519px}
+#room1 p{margin-left:3px; margin-bottom:15px}
+#room ul{margin-left:10px}
+
+
+#welcome {margin-bottom:20px}
+#welcome h2{height:41px; position:relative; margin-bottom:2px}
+#welcome p{float:left; margin-left:9px; margin-right:30px; width:215px}
+#welcome ul{float:left}
+
+#services {float:left; width:220px; margin-right:34px; margin-left:5px; display:inline}
+#services h2{height:19px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:17px}
+.servItem{margin-bottom:7px}
+.servItem img{float:left; margin-right:7px;}
+.servItem p{width:165px; float:left}
+
+#activities {float:left; width:196px;}
+#activities h2{height:19px; position:relative;  margin-bottom:12px}
+#activities img{margin-bottom:12px}
+
+.clear#end{height:20px}
+
+/* FOOTER */
+
+#footer{height:48px; clear:both; width:775px; border-top:#e8eaf1 4px solid}
+#footer p{padding: 10px 0 0 0; font:10px/14px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#3b3b21;}
+#footer p a{font:10px/14px Tahoma, sans-serif; font-weight:normal; color:#3b3b21; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#3b3b21}
